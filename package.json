@@ -1,0 +1,12 @@
+{
+  "name": "test-auto",
+  "version": "1.0.0",
+  "description": "AI Auto Demo Project with E2E tests",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
